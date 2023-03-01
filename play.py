@@ -46,6 +46,7 @@ prev_move = None
 
 while True:
     ret, frame = cap.read()
+    # frame = cv2.resize(frame, (1500, 800))
     if not ret:
         continue
 
